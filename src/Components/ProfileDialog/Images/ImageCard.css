@@ -1,0 +1,23 @@
+ul.recommendedImages{
+	padding-left:0px;
+	text-align:center;
+}
+
+ul.recommendedImages li {
+	position: relative;
+    width: 100px;
+    height: 100px;
+	overflow: hidden;
+	display:inline-block;
+	margin:40px 0.1%;
+	border-radius:4px;
+
+}
+ul.recommendedImages li img {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+}
